@@ -8,6 +8,7 @@ import HeroSection from "../components/reuseable/HeroSection"
 import InfoBlock from "../components/reuseable/InfoBlock"
 import Dualinfoblock from "../components/reuseable/Dualinfoblock"
 import Team from "../components/About/Team"
+import Contact from '../components/Contact/contact'
 const ContactPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
@@ -19,6 +20,7 @@ const ContactPage = ({data}) => (
     heroclass="about-background" />
     <Dualinfoblock heading="A message from CEO"/>
     <InfoBlock heading="How can we help you?" />
+    <Contact />
     <Team />
   </Layout>
 )
